@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+    
+    <EditText
+		android:id="@+id/txtNome"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/nome"/>
+    
+    <EditText
+		android:id="@+id/txtTelefone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/fone"/>
+    
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+        
+        <Button 
+            android:id="@+id/btnInserir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inserir"
+            android:onClick="buttonClick"/>
+        
+        
+        <Button 
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/editar"
+            android:layout_toRightOf="@id/btnInserir"
+            android:onClick="buttonClick"/>
+        
+        
+        <Button 
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/excluir"
+            android:layout_toRightOf="@id/btnEditar"
+            android:onClick="buttonClick"/>
+        
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/contatos"/>
+    
+</LinearLayout>

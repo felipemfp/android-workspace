@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda de Contatos</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nome">Digite o nome</string>
+    <string name="fone">Digite o telefone</string>
+    <string name="inserir">Inserir</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="contatos">Contatos</string>    
+
+</resources>
