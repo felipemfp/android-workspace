@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+		android:id="@+id/nc_editNome"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/nome"/>
+    
+    <EditText
+		android:id="@+id/nc_editTelefone"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/fone"/>
+    
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+        
+        <Button 
+            android:id="@+id/nc_btnInserir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inserir"
+            android:onClick="buttonClick"/>
+        
+        <Button 
+            android:id="@+id/nc_btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:layout_toRightOf="@id/nc_btnInserir"
+            android:onClick="buttonClick"/>
+        
+    </RelativeLayout>
+    
+</LinearLayout>
