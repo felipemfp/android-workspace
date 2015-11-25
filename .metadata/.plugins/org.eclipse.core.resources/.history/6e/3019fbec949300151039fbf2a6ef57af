@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda Telefônica</string>
+    <string name="action_settings">Settings</string>
+    <string name="novoContato">Novo Contato</string>
+    <string name="sobre">Sobre</string>
+    <string name="fechar">Fechar</string>
+    <string name="titulo">Agenda Telefônica</string>
+    <string name="subtitulo">Felipe Pontes | 2015</string>
+    <string name="nome">Nome</string>
+    <string name="fone">Telefone</string>
+    <string name="inserir">Inserir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ligar">Ligar</string>
+
+</resources>

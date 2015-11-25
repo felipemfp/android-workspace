@@ -1,0 +1,20 @@
+package com.example.aula04;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class NovoContatoActivity extends Activity {
+	private Button btnOk;
+	private Button btnCancel;
+	private EditText editNome;
+	private EditText editFone;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+		
+	}
+}
