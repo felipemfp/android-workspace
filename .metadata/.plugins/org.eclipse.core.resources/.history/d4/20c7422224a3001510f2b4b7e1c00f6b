@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ciclo de Vida</string>
+    <string name="action_settings">Configurações</string>
+
+    
+    
+   	<string-array name="listaOpcoes">
+   	    <item>Primeira opção</item>
+   	    <item>Segunda opção</item>
+   	    <item>Terceira opção</item>
+   	    <item>Quarta opção</item>
+   	</string-array>
+</resources>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="Activity"
+   	   	android:id="@+id/btnActivity"/>
+   	
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/dialog1"
+   	   	android:id="@+id/btnDialog1"/>
+   	
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/dialog2"
+   	   	android:id="@+id/btnDialog2"/>
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/dialog3"
+   	   	android:id="@+id/btnDialog3"/>
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/dialog4"
+   	   	android:id="@+id/btnDialog4"/>
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="@string/dialog5"
+   	   	android:id="@+id/btnDialog5"/>
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="DatePickerDialog"
+   	   	android:id="@+id/btnDialog6"/>
+   	
+   	
+   	<Button
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:text="TimePickerDialog"
+   	   	android:id="@+id/btnDialog7"/>
+    
+</LinearLayout>

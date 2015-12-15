@@ -1,0 +1,23 @@
+package com.example.aula05;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
+
+
+public class SlaveActivity extends Activity {
+
+	private final String Tag = "Slave";
+	private EditText editText1;
+	private TextView textView1;
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_slave);
+        
+        editText1 = (EditText)findViewById(R.id.editText1);
+        textView1 = (TextView)findViewById(R.id.textView1);
+    }
+	
+}

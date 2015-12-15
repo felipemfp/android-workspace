@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ciclo de Vida</string>
+    <string name="action_settings">Configurações</string>
+    
+    <string name="activity">Activity</string>
+    <string name="dialog1">AlertDialog</string>
+    <string name="dialog2">Items</string>
+    <string name="dialog3">Radio</string>
+    <string name="dialog4">Check</string>
+    <string name="dialog5">Dialog</string>
+    <string name="dialog6">DatePickerDialog</string>
+    <string name="dialog7">TimePickerDialog</string>
+    
+   	<string-array name="listaOpcoes">
+   	    <item>Primeira opção</item>
+   	    <item>Segunda opção</item>
+   	    <item>Terceira opção</item>
+   	    <item>Quarta opção</item>
+   	</string-array>
+</resources>

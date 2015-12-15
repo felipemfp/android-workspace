@@ -1,0 +1,46 @@
+package com.example.aula05;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class SlaveActivity extends Activity {
+
+	private final String Tag = "Slave";
+	private EditText editText1;
+	private TextView textView1;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_slave);
+
+		editText1 = (EditText) findViewById(R.id.editText1);
+		textView1 = (TextView) findViewById(R.id.textView1);
+		Log.i(Tag, "onCreate");
+	}
+
+	public void button1Click(View v) {
+		
+		String s1 = editText1.getText().toString();
+		
+		String s2 = textView1.getText().toString();
+		
+		textView1.setText(s1 + "\n" + s2);
+		
+		}
+		
+		public void button2Click(View v) {
+		
+		Intent i = new Intent();
+		
+		i.putExtra("ret", textView1.getText().toString());
+		
+		setResult(RESULT_OK, i);
+		
+		finish();
+		
+		}
+}
