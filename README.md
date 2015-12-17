@@ -79,3 +79,13 @@ tatos (nome e telefones) e realizar chamadas
   - GestureDetector
   - Thread
 
+### Avaliação do 3º Bimestre - Agenda de Compromissos
+
+- **Atividade Principal**
+  - Apresentar, em um ListView, os compromissos cadastrados
+  - Incluir um menu para as operações de inclusão, alteração e exclusão de um compromisso
+  - Apresentar um diálogo de confirmação antes de excluir um compromisso
+- **Atividade de Inserção**
+  - Apresentar campos para a entrada dos dados de um compromisso e botões para confirmar ou cancelar a operação
+  - Validar as informações do compromisso, mostrando mensagens para valores vazios fornecedidos
+
