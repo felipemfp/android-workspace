@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/categoria" />
+	
+	<Spinner
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:id="@+id/ne_catg" />
+	
+	<TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/descricao" />
+	
+	<EditText 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:id="@+id/ne_desc" 
+	        android:inputType="text"/>
+	
+	<TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/contato" />
+	
+	<Spinner 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:id="@+id/ne_nome"/>
+	
+	<TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/data" />
+	
+	<EditText />
+	
+	<LinearLayout>
+	    
+	    <Button/>
+	    <Button/>
+	    
+	</LinearLayout>
+	
+</LinearLayout>

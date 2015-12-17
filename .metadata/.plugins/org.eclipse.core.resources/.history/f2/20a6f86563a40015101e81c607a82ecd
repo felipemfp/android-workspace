@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ne_catg" />
+	
+	<Spinner />
+	
+	<TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ne_desc" />
+	
+	<EditText />
+	
+	<TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ne_nome" />
+	
+	<Spinner />
+	
+	<TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Categoria" />
+	
+	<EditText />
+	
+	<LinearLayout>
+	    
+	    <Button/>
+	    <Button/>
+	    
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,15 @@
+package com.example.aula06;
+
+import com.example.aula05.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class NovoEmprestimoActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_novo_emprestimo);
+	}
+}

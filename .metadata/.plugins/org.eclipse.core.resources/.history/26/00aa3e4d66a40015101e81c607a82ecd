@@ -1,0 +1,65 @@
+package com.example.aula06;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import android.os.Bundle;
+import android.app.ListActivity;
+import android.content.SharedPreferences;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.SimpleAdapter;
+
+public class MainActivity extends ListActivity {
+
+	private SharedPreferences prefs;
+
+	private ArrayList<HashMap<String, String>> emps;
+
+	private SimpleAdapter adapter;
+
+	private final String Sep = "---";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// setContentView(R.layout.activity_main);
+		prefs = getSharedPreferences("arquivo", MODE_PRIVATE);
+		emps = new ArrayList<HashMap<String, String>>();
+		abrirEmprestimos();
+		String[] from = new String[] { "catg", "desc", "nome", "data" };
+		int[] to = new int[] { R.id.catg, R.id.desc, R.id.nome, R.id.data };
+		int layout = R.layout.item_emprestimo;
+		adapter = new SimpleAdapter(this, emps, layout, from, to);
+		setListAdapter(adapter);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch(item.getItemId())
+		
+		{
+		
+		case R.id.
+		novo :
+		
+		Intent novo_contato = new Intent(this, NovoEmpresti
+		moActivity.class);
+		
+		startActivityForResult(novo_contato, 0); 
+		
+		break;
+		
+		}
+		
+		return true;
+	}
+
+}
