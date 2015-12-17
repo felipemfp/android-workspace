@@ -1,0 +1,25 @@
+import com.example.aula06.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.Spinner;
+
+
+public class NovoActivity extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_novo_emprestimo);
+		
+		ne_catg = (Spinner) findViewById(R.id.ne_catg);
+		ne_desc = (EditText) findViewById(R.id.ne_desc);
+		ne_nome = (Spinner) findViewById(R.id.ne_nome);
+		ne_data = (EditText) findViewById(R.id.ne_data);
+		ne_data.setText(getData());
+
+		abrirCategorias();
+		abrirContatos();
+	}
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda de Compromissos</string>
+    <string name="action_settings">Settings</string>
+    <string name="novo">Novo Compromisso</string>
+    <string name="assunto">Assunto</string>
+    <string name="local">Local</string>    
+    <string name="data">Data</string>    
+    <string name="adicionar">Adicionar</string>    
+    <string name="cancelar">Cancelar</string>    
+      
+    <string name="infoAssunto">Informe o assunto</string>  
+    <string name="infoLocal">Informe o local</string>  
+    <string name="infoData">Defina uma data</string>
+
+</resources>

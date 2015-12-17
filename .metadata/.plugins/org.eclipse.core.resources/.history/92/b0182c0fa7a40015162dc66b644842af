@@ -1,0 +1,14 @@
+package com.example.avaliacao;
+
+import java.util.Date;
+
+public class Compromisso {
+	private String _assunto;
+	private String _local;
+	private Date _data;
+	
+	public Contato(String nome, String telefone) {
+		_nome = nome;
+		_telefone = telefone;
+	}
+}

@@ -1,0 +1,63 @@
+package com.example.avaliacao;
+import com.example.avaliacao.R;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Spinner;
+
+
+public class NovoActivity extends Activity {
+	private EditText n_assunto;
+	private EditText n_local;
+	private EditText n_data;	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_novo);
+
+		n_assunto = (EditText) findViewById(R.id.n_assunto);
+		n_local = (EditText) findViewById(R.id.n_local);
+		n_data = (EditText) findViewById(R.id.n_data);
+		
+		n_data.setText(getDate());
+	}
+	
+	public void btnCancelarClick(View v) {
+		setResult(RESULT_CANCELED);
+		finish();
+	}
+	
+	private Boolean validarCompromisso() {
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setPositiveButton(R.string.adicionar, null);
+		builder.setTitle(R.string.app_name);
+		
+		if (n_assunto.getText().toString().isEmpty()) {
+			builder.setMessage(R.string.infoAssunto);
+			AlertDialog dialog = builder.create();
+			dialog.show();
+			return false;
+		}
+
+		if (n_local.getSelectedItem().toString().isEmpty()) {
+			builder.setMessage(R.string.infoLocal);
+			AlertDialog dialog = builder.create();
+			dialog.show();
+			return false;
+		}
+
+		if (n_data.getText().toString().isEmpty()) {
+			builder.setMessage(R.string.infoData);
+			AlertDialog dialog = builder.create();
+			dialog.show();
+			return false;
+		}
+
+		return true;
+	}
+}
