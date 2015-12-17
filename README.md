@@ -81,6 +81,8 @@ tatos (nome e telefones) e realizar chamadas
 
 ### Avaliação do 3º Bimestre - Agenda de Compromissos
 
+Desenvolver para Android uma aplicação para manter a agenda de compromissos de uma pessoa. A lista de compromissos deve ser persistida no dispositivo e ser aberta no início da aplicação. Cada compromisso contém as seguintes informações: Assunto, Local e Data.
+
 - **Atividade Principal**
   - Apresentar, em um ListView, os compromissos cadastrados
   - Incluir um menu para as operações de inclusão, alteração e exclusão de um compromisso
