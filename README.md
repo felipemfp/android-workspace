@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://67.media.tumblr.com/a8152c93a4a46d942deb8c0d8c55b9a2/tumblr_o7os3yLxGH1vnlnoto1_400.png" />
+</p>
+
 # Workspace
 
 **Instituição**: Instituto Federal do Rio Grande do Norte
@@ -101,3 +105,4 @@ Desenvolver para Android uma aplicação para manter a agenda de compromissos de
   - Apresentar campos para a entrada dos dados de um compromisso e botões para confirmar ou cancelar a operação
   - Validar as informações do compromisso, mostrando mensagens para valores vazios fornecedidos
 
+*Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>*
